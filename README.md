@@ -1,25 +1,25 @@
 # Info140143
 
-1. #### Description
+#### Description
 
-   [[140143]智能信息处理](https://gitee.com/lkljty/Info140143)
+[[140143]智能信息处理](https://gitee.com/lkljty/Info140143)
 
-   [![star](https://gitee.com/lkljty/Info140143/badge/star.svg?theme=dark)](https://gitee.com/lkljty/Info140143/stargazers)
+[![star](https://gitee.com/lkljty/Info140143/badge/star.svg?theme=dark)](https://gitee.com/lkljty/Info140143/stargazers)
 
-   [![fork](https://gitee.com/lkljty/Info140143/badge/fork.svg?theme=dark)](https://gitee.com/lkljty/Info140143/members)
+[![fork](https://gitee.com/lkljty/Info140143/badge/fork.svg?theme=dark)](https://gitee.com/lkljty/Info140143/members)
 
-   #### Lecture
+#### Lecture
 
-   
 
-   #### Homework
 
-   
+#### Homework
 
-   #### Lab
 
-   
 
-   #### FAQ
+#### Lab
 
-   [FAQ](./FAQ/FAQ.md)
+
+
+#### FAQ
+
+[FAQ](./FAQ/FAQ.md)
