@@ -14,7 +14,7 @@
 | 版本控制系统                 | [版本控制系统](./lecture/Git.md)                          |
 | Python简介                   | [Python简介](./lecture/Python.md)                         |
 | 基础图像识别（OpenCV）       | [基础图像识别（OpenCV）](./lecture/OpenCV-Intro.md)       |
-| 物体识别（OpenCV）           | [物体识别（OpenCV）](,.lecture/OpenCV-Object.md)          |
+| 物体识别（OpenCV）           | [物体识别（OpenCV）](./lecture/OpenCV-Object.md)          |
 | 人脸识别（OpenCV）           | [人脸识别（OpenCV）](./lecture/OpenCV-Face.md)            |
 | 配合云服务进行计算机视觉识别 | [配合云服务进行计算机视觉识别](./lecture/OpenCV-Cloud.md) |
 | Flask创建web服务器并连接     | [Flask创建web服务器并连接](./lecture/Flask.md)            |
