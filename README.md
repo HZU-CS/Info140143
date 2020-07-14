@@ -11,6 +11,7 @@
 
 | 章节                         | 链接                                                      |
 | ---------------------------- | --------------------------------------------------------- |
+| 课程介绍                     | [课程介绍](./lecture/Intro.md)                            |
 | 版本控制系统                 | [版本控制系统](./lecture/Git.md)                          |
 | Python简介                   | [Python简介](./lecture/Python.md)                         |
 | 基础图像识别（OpenCV）       | [基础图像识别（OpenCV）](./lecture/OpenCV-Intro.md)       |
