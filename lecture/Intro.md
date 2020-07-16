@@ -17,3 +17,13 @@
 - Cloud
 - Flask
 
+#### 寄语
+
+> ### Talk is cheap. Show me the code.(废话少说,放码过来)
+>
+> ### Practice makes progress.
+>
+> ### All experience comes from mistakes.
+>
+> ### Don't be one of the leeches.(不要当伸手党)
+
