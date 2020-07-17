@@ -2,7 +2,9 @@
 
 #### 参考
 
-[cheatsheet](../ebook/beginners_python_cheat_sheet_pcc_all.pdf)
+> [cheatsheet](../ebook/beginners_python_cheat_sheet_pcc_all.pdf)
+>
+> [Python3教程](https://www.runoob.com/python3/python3-tutorial.html)
 
 #### 变量和数据类型
 
