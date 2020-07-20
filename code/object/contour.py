@@ -16,7 +16,8 @@ def stack_images(scale, img_array):
                 else:
                     img_array[x][y] = cv2.resize(img_array[x][y], (img_array[0][0].shape[1], img_array[0][0].shape[0]),
                                                  None, scale, scale)
-                if len(img_array[x][y].shape) == 2: img_array[x][y] = cv2.cvtColor(img_array[x][y], cv2.COLOR_GRAY2BGR)
+                if len(img_array[x][y].shape) == 2:
+                    img_array[x][y] = cv2.cvtColor(img_array[x][y], cv2.COLOR_GRAY2BGR)
         image_blank = np.zeros((height, width, 3), np.uint8)
         hor = [image_blank] * rows
         hor_con = [image_blank] * rows
@@ -28,8 +29,10 @@ def stack_images(scale, img_array):
             if img_array[x].shape[:2] == img_array[0].shape[:2]:
                 img_array[x] = cv2.resize(img_array[x], (0, 0), None, scale, scale)
             else:
-                img_array[x] = cv2.resize(img_array[x], (img_array[0].shape[1], img_array[0].shape[0]), None, scale, scale)
-            if len(img_array[x].shape) == 2: img_array[x] = cv2.cvtColor(img_array[x], cv2.COLOR_GRAY2BGR)
+                img_array[x] = cv2.resize(img_array[x], (img_array[0].shape[1], img_array[0].shape[0]), None, scale,
+                                          scale)
+            if len(img_array[x].shape) == 2:
+                img_array[x] = cv2.cvtColor(img_array[x], cv2.COLOR_GRAY2BGR)
         hor = np.hstack(img_array)
         ver = hor
     return ver
@@ -79,7 +82,7 @@ get_contours(imgCanny)
 
 imgBlank = np.zeros_like(img)
 imgStack = stack_images(0.8, ([img, imgGray, imgBlur],
-                             [imgCanny, imgContour, imgBlank]))
+                              [imgCanny, imgContour, imgBlank]))
 
 cv2.imshow("Stack", imgStack)
 
