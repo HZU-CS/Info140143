@@ -11,7 +11,7 @@
 #
 # frameWidth = 640
 # frameHeight = 480
-# cap = cv2.VideoCapture("./test_ video.mp4")
+# cap = cv2.VideoCapture("./test_video.mp4")
 # while True:
 #     success, img = cap.read()
 #     img = cv2.resize(img, (frameWidth, frameHeight))
