@@ -33,7 +33,7 @@ def face_recog():
                 features, img_encoding, tolerance=0.4)
             count = 0
             for i in result:
-                if i == True:
+                if i:
                     flag = True
                     break
                 count = count + 1
@@ -42,7 +42,7 @@ def face_recog():
         key = cv.waitKey(1) & 0xFF
         if key == ord("q"):
             break
-        if flag == True:
+        if flag:
             break
 
     cap.release()
@@ -55,7 +55,7 @@ def face_recog():
 
 if __name__ == '__main__':
     f, name = face_recog()
-    if f == True:
+    if f:
         print("人脸识别通过，姓名:{}".format(name))
     else:
         print("人脸识别失败")

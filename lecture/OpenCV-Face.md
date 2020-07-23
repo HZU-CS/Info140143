@@ -56,4 +56,4 @@ face_register.py
 
 人脸识别
 
-face_recog.py
+face_recognition.py

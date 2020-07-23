@@ -1,4 +1,6 @@
 import cv2 as cv
+
+
 # 对每一帧图像进行人脸检测处理
 
 
@@ -7,8 +9,8 @@ def face_id(img, classifier):
     faces = classifier.detectMultiScale(gray, 1.3, 5)
     count = 0
     for (x, y, w, h) in faces:
-        cv.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
-        count = count+1
+        cv.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
+        count = count + 1
         cv.putText(img, str(count), (10, 100), cv.FONT_ITALIC, 4, (0, 0, 255))
         cv.imshow("1", img)
 
