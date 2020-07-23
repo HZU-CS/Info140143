@@ -46,7 +46,7 @@ pip install argparse
 
 安装face_recognition 
 
-```
+```powershell
 pip install face-recognition
 ```
 
