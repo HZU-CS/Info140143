@@ -60,10 +60,83 @@ print(cv2.__version__)
 ## 基础功能
 
 1. 读写图片、视频，调用外部摄像头
+
+   read.py
+
+   write.py
+
+   ```python
+   imread
+   imshow
+   VideoCapture
+   waitKey
+   imwrite
+   ```
+
 2. 像素和数组分析
+
+   pixel.py
+
+   array.py
+
+   channel.py
+
+   ```python
+   np.zeros
+   np.ones
+   nparray.shape
+   nparray.dtype
+   merge
+   ```
+
 3. 基本操作：颜色空间转换、模糊、边缘检测、膨胀、腐蚀
+
+   functions.py
+
+   ```python
+   cvtColor
+   GaussianBlur
+   Canny
+   dilate
+   erode
+   ```
+
 4. 改变大小
+
+   size.py
+
+   ```python
+   resize
+   ```
+
 5. 增加图形和文字
+
+   shape_text.py
+
+   ```python
+   line
+   rectangle
+   circle
+   putText
+   ```
+
 6. 视角变换
+
+   view.py
+
+   ```python
+   getPerspectiveTransform
+   warpPerspective
+   ```
+
 7. 图像拼接
+
+   join.py
+
+   ```python
+   np.hstack
+   np.vstack
+   ```
+
+   
 
