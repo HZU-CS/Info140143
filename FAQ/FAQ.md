@@ -40,3 +40,9 @@
 [从应用的角度来看，深度学习怎样快速入门？](https://www.zhihu.com/question/343407265)
 
 [为什么要学习吴恩达的机器学习？](https://www.zhihu.com/question/27282507)
+
+#### 国内镜像
+
+[Git](https://npm.taobao.org/mirrors/git-for-windows/)
+
+[Python](https://npm.taobao.org/mirrors/python/)
