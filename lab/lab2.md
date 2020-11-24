@@ -10,15 +10,29 @@
 
    ![result](./lab2/result.png)
 
-2. 改变目标图像背景
+2. 以下两题二选其一即可
+
+   (1) 改变目标图像背景
 
    目标图像
 
    ![person](./lab2/person.jpg)
 
    结果示例图像（达成要求即可，不需要完全一致）
-
+   
    ![masked](./lab2/masked.jpg)
+   
+   (2)
+   
+   基于数字形态学的空心字转换
+   
+   将汉字图像
+   
+   ![han](./lab2/han.jpg)
+   
+   转化为空心字，结果如下
+   
+   ![res](./lab2/res.png)
 
 进阶实验：
 
