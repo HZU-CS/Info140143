@@ -32,6 +32,24 @@ face_recognition 库是一个强大、简单、易上手的人脸识别开源项
 
 #### 环境准备
 
+在Windows平台没有安装过visual studio2015版本或者更新以及MSVC版本没有达到2015版本或者更新的同学。
+
+1. 先去Visual Studio2019官网下载
+
+   [Visual Studio 2019 IDE - 适用于 Windows 的编程软件 (microsoft.com)](https://visualstudio.microsoft.com/zh-hans/vs/)
+
+   ![vs](./vs.png)
+
+2. 下载后打开会安装installer
+
+3. installer中选择Visual Studio Community 2019安装并且选择使用 C++的桌面开发
+
+   ![installer](./installer.png)
+
+   ![C++](./C++.png)
+
+4. 下载完成后即可进行下面的操作
+
 安装cmake
 
 ```powershell
