@@ -7,7 +7,7 @@ import cv2 as cv
 
 def face_recog():
     # 读取注册的人脸特征 npy 文件
-    feature_path = os.path.join("files", "*.npy")
+    feature_path = os.path.join("", "*.npy")
     feature_files = glob.glob(feature_path)
     # 解析文件名称，作为注册人姓名
     feature_names = [item.split(os.sep)[-1].replace(".npy", "")

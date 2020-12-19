@@ -8,9 +8,13 @@ def face_id(img, classifier):
     gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
     faces = classifier.detectMultiScale(gray, 1.3, 5)
     count = 0
-    for (x, y, w, h) in faces:
-        cv.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
-        count = count + 1
+    if len(faces) == 0:
+        cv.putText(img, str(count), (10, 100), cv.FONT_ITALIC, 4, (0, 0, 255))
+        cv.imshow("1", img)
+    else:
+        for (x, y, w, h) in faces:
+            cv.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
+            count = count + 1
         cv.putText(img, str(count), (10, 100), cv.FONT_ITALIC, 4, (0, 0, 255))
         cv.imshow("1", img)
 

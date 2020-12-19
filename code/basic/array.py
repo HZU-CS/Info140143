@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 
 # 全黑色图片
+# 0 ~ 255
 black = np.zeros([150, 200, 1], 'uint8')  # 所有通道都是0，显示黑色
 cv2.imshow("Black", black)
 print(black[0, 0, :])

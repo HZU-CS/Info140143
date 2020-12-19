@@ -38,6 +38,6 @@ args = vars(ap.parse_args())
 image_encoding, flag = face_register()
 if flag:
     feature_name = args["name"] + ".npy"
-    feature_path = os.path.join("./files", feature_name)
+    feature_path = os.path.join("./", feature_name)
     np.save(feature_path, image_encoding)
     print("已保存人脸")
